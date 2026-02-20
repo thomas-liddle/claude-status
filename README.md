@@ -6,7 +6,7 @@ SLACK_TOKEN     (xoxp-... User OAuth Token)
 ```
 
 To get a token:
- - go to https://api.slack.com/apps and go to the "Status Updater" app
+ - go to https://api.slack.com/apps and go to the "Status Updater" app (you might need to be added as a collaborator if you haven't already)
  - install the app to your workspace
  - copy the "User OAuth Token" (starts with `xoxp-`)
  - add `export SLACK_TOKEN=xoxp-...` to your `~/.zshrc` or `~/.zprofile`
